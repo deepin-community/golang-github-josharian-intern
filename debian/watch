@@ -1,0 +1,2 @@
+version=4
+https://github.com/josharian/intern/tags .*/v?(\d\S*)\.tar\.gz debian
