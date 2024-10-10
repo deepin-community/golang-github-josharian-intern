@@ -1,5 +1,18 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-josharian-intern (1.0.0-3) unstable; urgency=medium
 
-  * Initial release
+  * debian/control:
+    - Mark golang-github-josharian-intern-dev as Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Roger Shimizu <rosh@debian.org>  Fri, 11 Dec 2020 00:39:47 +0900
+
+golang-github-josharian-intern (1.0.0-2) unstable; urgency=medium
+
+  * Source only upload to trigger testing migration.
+
+ -- Roger Shimizu <rosh@debian.org>  Sun, 06 Dec 2020 23:22:34 +0900
+
+golang-github-josharian-intern (1.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #958164)
+
+ -- Roger Shimizu <rosh@debian.org>  Fri, 04 Dec 2020 01:23:18 +0900
